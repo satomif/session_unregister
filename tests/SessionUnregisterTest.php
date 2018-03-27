@@ -9,6 +9,11 @@ class SessionUnregisterTest extends \PHPUnit_Framework_TestCase
         $_SESSION['hello'] = 'world';
     }
 
+    public function tearDown()
+    {
+        session_destroy();
+    }
+
     /**
      * @runInSeparateProcess
      */
