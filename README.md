@@ -1,0 +1,2 @@
+# session_unregister
+session_unregister polyfill
